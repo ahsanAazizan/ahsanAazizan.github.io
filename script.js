@@ -11,6 +11,7 @@ window.addEventListener('scroll', function(){
     stars.style.left = scroll + 'px'
     mountains_behind.style.top = (scroll * .2) + 'px'
     hi_there.style.marginRight = (scroll * 2.3) + 'px'
+    hi_there.style.marginTop = (scroll) + 'px'
     btn.style.marginTop = (scroll * 1.5) + 'px'
 })
 
