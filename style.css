@@ -38,17 +38,6 @@ header ul li {
     margin: 15px;
 }
 
-header .logo{
-    background: #2b1055;
-    font-size: 2em;
-    padding: 5px 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-}
-
 header ul li a {
     color: white;
     text-decoration: none;
@@ -62,9 +51,6 @@ header ul li a:hover{
     background: white;
     color: #6881c7;
 }
-
-
-
 
 section {
     display: flex;
