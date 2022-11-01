@@ -15,19 +15,24 @@ body {
 }
 
 header {
+    background: #2b1055;
     position: fixed;
     z-index: 100;
     display: flex;
     justify-content: space-between;
     top: 0;
-    left: 0;
-    padding: 20px 100px;
+    padding: 5px 100px;
     width: 100%;
     align-items: center;
 }
 
+.logo {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+}
+
 header ul {
-    background: #2b1055;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -41,7 +46,7 @@ header ul li {
 header ul li a {
     color: white;
     text-decoration: none;
-    padding: 7px 15px;
+    padding: 5px 15px;
     border-radius: 2px;
     letter-spacing: 2px;
     transition: all .3s;
@@ -100,7 +105,6 @@ section img#mountains_front{
     white-space: nowrap;
     font-size: 5vw;
     font-weight: bolder;
-    right: 0;
     text-shadow: 0 0 20px #ffff, 0 0 30px #447cd4, 0 0 40px #447cd4, 0 0 50px #447cd4, 0 0 60px #447cd4, 0 0 70px #447cd4, 0 0 80px #447cd4;
 }
 
@@ -248,6 +252,7 @@ section img#mountains_front{
 }
 
 .projects {
+    position: relative;
     display: flex;
 }
 
@@ -255,5 +260,34 @@ section img#mountains_front{
     padding: 20px;
     width: 300px;
     height: 300px;
-    border-radius: 360px;
+    border-radius: 30px;
+}
+
+.text {
+    margin-top: 20px;
+    left: 30px;
+    display: block;
+    padding: 15px;
+    color: white;
+}
+
+.projects p {
+    margin-top: 20px;
+    letter-spacing: .5px;
+    margin-bottom: 50px;
+}
+
+.projects a {
+    font-size: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 12px 45px;
+    background: #2b1055;
+    color: white;
+    transition: all .2s;
+}
+
+.projects a:hover {
+    color: #2b1055;
+    background: white;
 }
