@@ -113,10 +113,10 @@ section img#mountains_front{
     z-index: 10;
     text-decoration: none;
     padding: 8px 12px;
-    border-radius: 15px;
+    border-radius: 2px;
     background: #2b1055;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     display: inline-block;
     transform: translateY(100px);
     transition: background .2s, color .2s;
@@ -137,6 +137,23 @@ section img#mountains_front{
     background: #2b1055;
 }
 
+.img-child {
+    display: flex;
+}
+
+.img-child img {
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    transition: all .1s;
+}
+
+.img-child img:hover {
+    rotate: 6deg;
+}
+
 .about-text {
     color: white;
     font-size: 1.2em;
@@ -144,7 +161,7 @@ section img#mountains_front{
     display: flex;
 }
 
-.about-text img {
+.profile {
     margin-right: 35px;
     padding: 10px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -254,6 +271,7 @@ section img#mountains_front{
 .projects {
     position: relative;
     display: flex;
+    margin-bottom: 50px;
 }
 
 .projects img {
@@ -268,7 +286,7 @@ section img#mountains_front{
     left: 30px;
     display: block;
     padding: 15px;
-    color: white;
+    color: #2b1055;
 }
 
 .projects p {
@@ -279,7 +297,7 @@ section img#mountains_front{
 
 .projects a {
     font-size: 15px;
-    border-radius: 10px;
+    border-radius: 2px;
     text-decoration: none;
     padding: 12px 45px;
     background: #2b1055;
@@ -290,4 +308,34 @@ section img#mountains_front{
 .projects a:hover {
     color: #2b1055;
     background: white;
+}
+
+#works h2 {
+    color: #2b1055;
+    font-size: 1.5em;
+}
+
+#works h2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+#works h2 a:hover {
+    color: #2b1055;
+}
+
+
+footer {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #2b1055;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+footer p {
+    margin-left: 40%;
 }
