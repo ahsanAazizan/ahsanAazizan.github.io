@@ -1,4 +1,3 @@
 # ahsanAazizan.github.io
 
-
-Almost done
+Personal web project
