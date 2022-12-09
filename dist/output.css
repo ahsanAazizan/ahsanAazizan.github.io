@@ -628,16 +628,16 @@ video {
   margin-right: auto;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .mt-0 {
   margin-top: 0px;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mb-10 {
@@ -652,8 +652,8 @@ video {
   margin-top: 7rem;
 }
 
-.mb-3 {
-  margin-bottom: 0.75rem;
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
 .mb-2 {
@@ -662,6 +662,10 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mr-3 {
@@ -678,10 +682,6 @@ video {
 
 .mb-12 {
   margin-bottom: 3rem;
-}
-
-.mb-7 {
-  margin-bottom: 1.75rem;
 }
 
 .block {
@@ -854,10 +854,6 @@ video {
   padding: 0.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -921,6 +917,11 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .px-2 {
@@ -1136,7 +1137,6 @@ body {
   margin-left: 2rem;
   margin-right: 2rem;
   display: flex;
-  border-radius: 0.25rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -1146,7 +1146,6 @@ body {
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(50 57 71 / var(--tw-text-opacity));
-  text-underline-offset: auto;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -1155,7 +1154,8 @@ body {
 }
 
 .navbar-comp:hover {
-  text-decoration-line: underline;
+  --tw-text-opacity: 1;
+  color: rgb(156 167 176 / var(--tw-text-opacity));
 }
 
 .hover\:scale-105:hover {
