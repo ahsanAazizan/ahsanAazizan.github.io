@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahsan. | Portfolio</title>
+    <title>ahsan | Portfolio</title>
     <link rel="stylesheet" href="dist/output.css">
     <link rel="icon" href="dist/img/icon.ico" type="image/x-icon">
 </head>
-<body class="bg-bgprimary">
-    <!-- Header -->
+<body class="bg-prim">
+    <!-- Navbar -->
     <header class="navbar">
         <div class="container">
-            <div class="flex items-center justify-between relative py-1">
+            <div class="flex items-center justify-between relative">
                 <div class="px-4">
-                    <a href="#home" class="font-bold text-primary block py-[5.7px] text-2xl">Ahsan.</a>
+                    <a href="#home" class="font-bold text-sec block py-6 text-2xl lg:py-3">ahsanazizan</a>
                 </div>
                 <div class="flex items-center px-4">
                     <button id="hamburger" name="hamburger" type="button"
@@ -24,27 +24,23 @@
                         <span class="hamburger-line transition duration-200 ease-in-out origin-bottom-left"></span>
                     </button>
 
-                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg
-                    max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                    <nav id="nav-menu" class="hidden absolute py-5 shadow-lg rounded-lg
+                    max-w-[250px] w-full right-4 top-full lg:block lg:static lg:max-w-full lg:shadow-none lg:rounded-none lg:bg-transparent bg-quart">
                         <ul class="block lg:flex">
                             <li class="group">
-                                <a href="#home" class="navbar-comp">Home</a>
+                                <a href="#home" class="navbar-comp hover-underline-animation">Home</a>
                             </li>
 
                             <li class="group">
-                                <a href="#about" class="navbar-comp">About</a>
+                                <a href="#about" class="navbar-comp hover-underline-animation">About</a>
                             </li>
 
                             <li class="group">
-                                <a href="#projects" class="navbar-comp">Projects</a>
-                            </li>
+                                <a href="#portfolio" class="navbar-comp hover-underline-animation">Portfolio</a>
+                            </li>   
 
                             <li class="group">
-                                <a href="#certificates" class="navbar-comp">Certificates</a>
-                            </li>
-
-                            <li class="group">
-                                <a href="#contact" class="navbar-comp">Contact</a>
+                                <a href="mailto:ahsanaz461@gmail.com" class="text-base font-semibold text-sec hover:bg-sec py-2 px-4 rounded-md mx-3 flex hover:text-white transition duration-150 ease-in-out border border-sec">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -55,36 +51,36 @@
     <!-- /Header -->
 
     <!-- Hero -->
-    <section id="home" class="pt-32 pb-28">
+    <section id="home" class="pt-32 pb-36">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary mb-3 md:text-xl lg:text-2xl">
+                    <h1 class="text-base font-semibold text-white mb-3 md:text-xl lg:text-2xl">
                         Hey there! Welcome to <span class="block font-bold text- text-4xl mt-0 lg:text-5xl">
-                            Ahsan<span class="text-dark">'s Personal Website.
+                            Ahsan<span class="text-sec">'s Personal Website.
                             </span>
                         </span>
                     </h1>
-                    <h2 class="text-primary text-lg mb-8 lg:text-xl"><span class="text-dark
+                    <h2 class="text-white text-base mb-8 lg:text-lg leading-relaxed opacity-80"><span class="text-sec
                         ">
                         Student |
                     </span> Software Engineer Wannabe</h2>
                     
-                    <p class="font-medium text-para mb-10 leading-relaxed text-xl max-w-md">
-                        Programming is <span class="font-bold text-dark">solving the problem first,</span> write the code later.
+                    <p class="font-medium text-white mb-10 leading-relaxed text-xl max-w-md">
+                        Programming is <span class="font-bold text-sec">solving the problem first,</span> write the code later.
                     </p>
-                    <a href="#about" class="text-base font-semibold text-white 
-                    bg-primary px-7 py-3 rounded-lg hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out">
-                        About Me
+                    <a href="#about" class="text-base font-semibold text-white rounded-tr-lg rounded-bl-lg
+                    bg-sec px-7 py-3 hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out">
+                        About
                     </a>
                 </div> 
                 
                 <div class="w-full self-end px-4 lg:w-1/2 mt-5">
                     <div class="relative mt-28 lg:mt-8 lg:right-0">
-                        <img src="dist/img/ahsan.png" alt="My Photo" class="max-w-full mx-auto rounded-full" width="350" height="350">
+                        <img src="dist/img/ahsan.png" alt="My Photo" class="max-w-full mx-auto opacity-75" width="350" height="350">
                         <span class="absolute bottom-5 -z-10 left-1/2 -translate-x-1/2 md:scale-150">
                             <svg width="300" height="300" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="#9CA7B0" d="M35.1,-62.9C45.3,-54.9,53.2,-45.1,63,-34.3C72.9,-23.5,84.6,-11.8,83.6,-0.6C82.6,10.6,68.9,21.2,59.7,33.2C50.5,45.1,46,58.4,36.8,64.2C27.6,70,13.8,68.3,0.3,67.9C-13.3,67.4,-26.5,68.1,-36.3,62.7C-46.2,57.3,-52.6,45.7,-59,34.2C-65.3,22.7,-71.6,11.4,-76.1,-2.6C-80.5,-16.5,-83.1,-33,-78.1,-46.9C-73.2,-60.8,-60.7,-72.2,-46.4,-77.8C-32.1,-83.4,-16.1,-83.4,-1.8,-80.2C12.5,-77.1,24.9,-70.9,35.1,-62.9Z" transform="translate(100 100) scale(1.2, 1)" />
+                                <path fill="#242582" d="M35.1,-62.9C45.3,-54.9,53.2,-45.1,63,-34.3C72.9,-23.5,84.6,-11.8,83.6,-0.6C82.6,10.6,68.9,21.2,59.7,33.2C50.5,45.1,46,58.4,36.8,64.2C27.6,70,13.8,68.3,0.3,67.9C-13.3,67.4,-26.5,68.1,-36.3,62.7C-46.2,57.3,-52.6,45.7,-59,34.2C-65.3,22.7,-71.6,11.4,-76.1,-2.6C-80.5,-16.5,-83.1,-33,-78.1,-46.9C-73.2,-60.8,-60.7,-72.2,-46.4,-77.8C-32.1,-83.4,-16.1,-83.4,-1.8,-80.2C12.5,-77.1,24.9,-70.9,35.1,-62.9Z" transform="translate(100 100) scale(1.2, 1)" />
                             </svg>
                         </span>
                     </div>
@@ -95,210 +91,200 @@
     <!-- /Hero -->
 
     <!-- About -->
-    <section id="about" class="pt-32 pb-32">
+    <section id="about" class="pt-32 pb-32 bg-ter">
         <div class="container">
             <div class="max-w-xl mx-auto text-center">
-                <h4 class="text-center font-bold uppercase text-primary text-lg lg:text-xl">
+                <h4 class="text-center font-bold uppercase text-sec text-lg">
                    About Me 
                 </h4>
             </div>
-            <div class="flex flex-wrap justify-center">
+            <div class="flex flex-wrap justify-center mb-12">
                 <div class="w-full py-10 px-4 lg:w-1/3 mb-7">
-                    <h2 class="font-bold text-dark text-3xl mb-3 max-w-md">
-                        Me and My Background
+                    <h2 class="font-bold text-sec text-3xl mb-3 max-w-md">
+                        Me and my Background
                     </h2>
-                    <p class="font-medium leading-relaxed text-para text-lg max-w-xl lg:text-md mb-10">
-                        Hey there! I'm Ahsan Awadullah Azizan. I started coding in 2020 inspired by <a href="https://www.youtube.com/c/DaniDev" class="text-dark hover:underline" target="_blank">Dani</a>.
+                    <p class="font-medium leading-relaxed text-white text-lg max-w-xl lg:text-md mb-10">
+                        Hey there! I'm Ahsan Awadullah Azizan. I started coding in 2020 inspired by <a href="https://www.youtube.com/c/DaniDev" class="text-sec hover:underline" target="_blank">Dani</a>.
                         I'm currently studying Software Engineering and currently learning
-                        Java, but i learned others programming language like Python, C#, and others before. On my free time i solve problem on <a href="https://geeksforgeeks.org" class="text-dark hover:underline" target="_blank">GeeksForGeeks</a>, <a href="https://hackerrank.com" class="text-dark hover:underline" target="_blank">HackerRank</a>, <a href="https://leetcode.com" class="text-dark hover:underline" target="_blank">LeetCode</a>.
-                        <span class="text-dark font-semibold"> Also i've created several projects, check it out!</span>
+                        Java, but i learned others programming language like Python, C#, and others before. On my free time i solve problem on <a href="https://geeksforgeeks.org" class="text-sec hover:underline" target="_blank">GeeksForGeeks</a>, <a href="https://hackerrank.com" class="text-sec hover:underline" target="_blank">HackerRank</a>, and <a href="https://leetcode.com" class="text-sec hover:underline" target="_blank">LeetCode</a>.
+                        Also i've created several projects, check it out!
                     </p>
 
-                    <a href="#projects" class="text-base font-semibold text-white 
-                    bg-primary px-7 py-3 rounded-lg hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out">
-                        My Projects
+                    <a href="#portfolio" class="text-base font-semibold text-white 
+                    bg-sec px-5 py-3 rounded-tr-lg rounded-bl-lg hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out">
+                        Projects
                     </a>
                 </div>
 
                 <div class="w-full px-4 lg:w-1/2 mb-7">
-                    <h3 class="font-bold text-dark text-3xl mb-2 lg:pt-10">
-                        Various way to connect with me
+                    <h3 class="font-bold text-sec text-3xl mb-2 lg:pt-10">
+                        Ways to connect with me
                     </h3>
-                    <p class="font-medium text-lg text-para mb-6 lg:text-md">
-                        If you want to connect with me on social media, Here's several social media that i have. I got Instagram, Twitter, Discord, and LinkedIn.
+                    <p class="font-medium text-lg text-white mb-6 lg:text-md">
+                        If you want to connect with me on social media, here's several social media that i have. I got Instagram, Twitter, Discord, and LinkedIn.
                     </p>
             
-                    <div class="flex items-center mb-5">
-                        <a href="https://instagram.com/ahsan_az461" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-dark hover:border-primary hover:bg-primary hover:text-white text-dark">
+                    <div class="flex items-center lg:mb-0 mb-12">
+                        <a href="https://instagram.com/ahsan_az461" target="_blank" class="social-media">
                             <svg role="img" viewBox="0 0 24 24" class="fill-current" width="24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
                         </a>
             
-                        <a href="https://twitter.com/ahsanaz461?t=MdRpn5PGACowRQp-qlnO7A&s=09" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-dark hover:border-primary hover:bg-primary hover:text-white text-dark">
+                        <a href="https://twitter.com/ahsanaz461?t=MdRpn5PGACowRQp-qlnO7A&s=09" target="_blank" class="social-media">
                             <svg class="fill-current" role="img" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
                         </a>
             
-                        <a href="https://www.linkedin.com/in/ahsan-awadullah-33908b250" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-dark hover:border-primary hover:bg-primary hover:text-white text-dark">
+                        <a href="https://www.linkedin.com/in/ahsan-awadullah-33908b250" target="_blank" class="social-media">
                             <svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                         </a>
                         
-                        <a href="https://discord.com/users/650696568227233823" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-dark hover:border-primary hover:bg-primary hover:text-white text-dark">
+                        <a href="https://discord.com/users/650696568227233823" target="_blank" class="social-media">
                             <svg role="img" class="fill-current" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Discord</title><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg>
-                        </a>
-                        
-                        <a href="https://github.com/ahsanAazizan" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-dark hover:border-primary hover:bg-primary hover:text-white text-dark">
-                            <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>    
                         </a>
                     </div>
 
-                    <h3 class="font-bold text-dark text-3xl mb-2 lg:pt-10 lg:mt-0">
+                    <h3 class="font-bold text-sec text-3xl mb-2 lg:pt-10">
                         Tools and language
                     </h3>
-                    <p class="font-medium text-lg text-para mb-6 lg:text-md ">
-                        These are several Tools and language that i use for my personal projects or school projects.
+                    <p class="font-medium text-lg text-white mb-6 lg:text-md">
+                        Several Tools and Programming Language that i use for my projects.
                     </p>
             
                     <div class="flex flex-wrap items-center max-w-md">
-                        <a href="https://www.javascript.com" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://www.javascript.com" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JavaScript</title><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
                         </a>
-                        <a href="https://www.python.org" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://www.python.org" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Python</title><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg>
                         </a>
-                        <a href="https://visualstudio.microsoft.com/" target="_blank" class="w-9 h-9 mb-3 mr-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://visualstudio.microsoft.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Visual Studio</title><path d="M17.583.063a1.5 1.5 0 00-1.032.392 1.5 1.5 0 00-.001 0A.88.88 0 0016.5.5L8.528 9.316 3.875 5.5l-.407-.35a1 1 0 00-1.024-.154 1 1 0 00-.012.005l-1.817.75a1 1 0 00-.077.036 1 1 0 00-.047.028 1 1 0 00-.038.022 1 1 0 00-.048.034 1 1 0 00-.03.024 1 1 0 00-.044.036 1 1 0 00-.036.033 1 1 0 00-.032.035 1 1 0 00-.033.038 1 1 0 00-.035.044 1 1 0 00-.024.034 1 1 0 00-.032.05 1 1 0 00-.02.035 1 1 0 00-.024.05 1 1 0 00-.02.045 1 1 0 00-.016.044 1 1 0 00-.016.047 1 1 0 00-.015.055 1 1 0 00-.01.04 1 1 0 00-.008.054 1 1 0 00-.006.05A1 1 0 000 6.668v10.666a1 1 0 00.615.917l1.817.764a1 1 0 001.035-.164l.408-.35 4.653-3.815 7.973 8.815a1.5 1.5 0 00.072.065 1.5 1.5 0 00.057.05 1.5 1.5 0 00.058.042 1.5 1.5 0 00.063.044 1.5 1.5 0 00.065.038 1.5 1.5 0 00.065.036 1.5 1.5 0 00.068.031 1.5 1.5 0 00.07.03 1.5 1.5 0 00.073.025 1.5 1.5 0 00.066.02 1.5 1.5 0 00.08.02 1.5 1.5 0 00.068.014 1.5 1.5 0 00.075.01 1.5 1.5 0 00.075.008 1.5 1.5 0 00.073.003 1.5 1.5 0 00.077 0 1.5 1.5 0 00.078-.005 1.5 1.5 0 00.067-.007 1.5 1.5 0 00.087-.015 1.5 1.5 0 00.06-.012 1.5 1.5 0 00.08-.022 1.5 1.5 0 00.068-.02 1.5 1.5 0 00.07-.028 1.5 1.5 0 00.09-.037l4.944-2.377a1.5 1.5 0 00.476-.362 1.5 1.5 0 00.09-.112 1.5 1.5 0 00.004-.007 1.5 1.5 0 00.08-.125 1.5 1.5 0 00.062-.12 1.5 1.5 0 00.009-.017 1.5 1.5 0 00.04-.108 1.5 1.5 0 00.015-.037 1.5 1.5 0 00.03-.107 1.5 1.5 0 00.009-.037 1.5 1.5 0 00.017-.1 1.5 1.5 0 00.008-.05 1.5 1.5 0 00.006-.09 1.5 1.5 0 00.004-.08V3.942a1.5 1.5 0 000-.003 1.5 1.5 0 000-.032 1.5 1.5 0 00-.01-.15 1.5 1.5 0 00-.84-1.17L18.206.21a1.5 1.5 0 00-.622-.146zM18 6.92v10.163l-6.198-5.08zM3 8.574l3.099 3.427-3.1 3.426z"/></svg>    
                         </a>
-                        <a href="https://code.visualstudio.com/" target="_blank" class="w-9 h-9 mb-3 mr-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://code.visualstudio.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Visual Studio Code</title><path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/></svg>    
                         </a>
-                        <a href="https://github.com/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://github.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>    
                         </a>
-                        <a href="https://github.com/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://github.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>C++</title><path d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zm7.11-6.715h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79zm2.962 0h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79z"/></svg>    
                         </a>
-                        <a href="https://git-scm.com/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://git-scm.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Git</title><path d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"/></svg>    
                         </a>
-                        <a href="https://nodejs.org/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://nodejs.org/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Node.js</title><path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z"/></svg>    
                         </a>
-                        <a href="https://www.npmjs.com/package/nodemon" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://www.npmjs.com/package/nodemon" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Nodemon</title><path d="M22.33 7.851l-.716-.398c1.101-1.569 1.758-3.927.934-7.453 0 0-1.857 5.029-5.59 4.863l-4.37-2.431a1.171 1.171 0 0 0-.536-.15h-.101a1.183 1.183 0 0 0-.538.15L7.042 4.863C3.309 5.03 1.452 0 1.452 0c-.825 3.526-.166 5.884.934 7.453l-.716.398a1.133 1.133 0 0 0-.589.988l.022 14.591c0 .203.109.392.294.491a.58.58 0 0 0 .584 0l5.79-3.204c.366-.211.589-.582.589-.987v-6.817c0-.406.223-.783.588-.984l2.465-1.372a1.19 1.19 0 0 1 .59-.154c.2 0 .407.05.585.154l2.465 1.372c.365.201.588.578.588.984v6.817c0 .405.226.779.59.987l5.788 3.204a.59.59 0 0 0 .589 0 .564.564 0 0 0 .292-.491l.019-14.591a1.129 1.129 0 0 0-.589-.988z"/></svg>
                         </a>
-                        <a href="https://www.mysql.com/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://www.mysql.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>MySQL</title><path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"/></svg>
                         </a>
-                        <a href="https://www.mongodb.com/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://www.mongodb.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>MongoDB</title><path d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0111.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 003.639-8.464c.01-.814-.103-1.662-.197-2.218zm-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405z"/></svg>
                         </a>
-                        <a href="https://pandas.pydata.org/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://pandas.pydata.org/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>pandas</title><path d="M16.922 0h2.623v18.104h-2.623zm-4.126 12.94h2.623v2.57h-2.623zm0-7.037h2.623v5.446h-2.623zm0 11.197h2.623v5.446h-2.623zM4.456 5.896h2.622V24H4.455zm4.213 2.559h2.623v2.57H8.67zm0 4.151h2.623v5.447H8.67zm0-11.187h2.623v5.446H8.67Z"/></svg>
                         </a>
-                        <a href="https://tailwindcss.com/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://tailwindcss.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg>    
                         </a>
-                        <a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>C Sharp</title><path d="M12 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zM9.426 7.12a5.55 5.55 0 011.985.38v1.181a4.5 4.5 0 00-2.25-.566 3.439 3.439 0 00-2.625 1.087 4.099 4.099 0 00-1.012 2.906 3.9 3.9 0 00.945 2.754 3.217 3.217 0 002.482 1.023 4.657 4.657 0 002.464-.634l-.004 1.08a5.543 5.543 0 01-2.625.555 4.211 4.211 0 01-3.228-1.297 4.793 4.793 0 01-1.212-3.409 5.021 5.021 0 011.365-3.663 4.631 4.631 0 013.473-1.392 5.55 5.55 0 01.12-.004 5.55 5.55 0 01.122 0zm5.863.155h.836l-.555 2.652h1.661l.567-2.652h.81l-.555 2.652 1.732-.004-.15.697H17.91l-.412 1.98h1.852l-.176.698h-1.816l-.58 2.625h-.83l.567-2.625h-1.65l-.555 2.625h-.81l.555-2.625h-1.74l.131-.698h1.748l.401-1.976h-1.826l.138-.697h1.826zm.142 3.345L15 12.6h1.673l.423-1.98z"/></svg>
                         </a>
-                        <a href="https://tailwindcss.com/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://tailwindcss.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Unity</title><path d="m12.9288 4.2939 3.7997 2.1929c.1366.077.1415.2905 0 .3675l-4.515 2.6076a.4192.4192 0 0 1-.4246 0L7.274 6.8543c-.139-.0745-.1415-.293 0-.3675l3.7972-2.193V0L1.3758 5.5977V16.793l3.7177-2.1456v-4.3858c-.0025-.1565.1813-.2682.318-.1838l4.5148 2.6076a.4252.4252 0 0 1 .2136.3676v5.2127c.0025.1565-.1813.2682-.3179.1838l-3.7996-2.1929-3.7178 2.1457L12 24l9.6954-5.5977-3.7178-2.1457-3.7996 2.1929c-.1341.082-.3229-.0248-.3179-.1838V13.053c0-.1565.087-.2956.2136-.3676l4.5149-2.6076c.134-.082.3228.0224.3179.1838v4.3858l3.7177 2.1456V5.5977L12.9288 0Z"/></svg>
                         </a>
-                        <a href="https://www.jetbrains.com/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://www.jetbrains.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JetBrains</title><path d="M7.529 8.753h-.705v.941h.706c.376 0 .565-.188.565-.471-.001-.329-.236-.47-.566-.47zm-3.2.282c0-.235-.188-.329-.471-.329h-.705v.706h.659c.329-.047.517-.141.517-.377zm6.212 1.13h.847l-.423-1.083zm-6.588 0h-.847v.706h.847c.329 0 .518-.141.518-.376s-.189-.33-.518-.33zM0 0v24h24V0H0zm8.424 3.012h3.435v.941h-1.176v2.965H9.6V3.953H8.424v-.941zm-.236 0v.894h-2.07v.612H8v.847H6.118v.612h2.118v.941H5.082l-.047-3.906h3.153zm-2.635 7.623c0 .659-.565 1.082-1.459 1.082H2.071V7.812h2.023c.471 0 .847.141 1.082.329.142.141.236.377.236.659 0 .471-.235.706-.612.894.471.141.753.424.753.941zM2.682 5.647c.188.235.376.376.612.376.282 0 .424-.188.424-.565V2.965H4.8v2.494c0 .471-.141.847-.376 1.082s-.612.377-1.083.377c-.706.047-1.082-.236-1.364-.612l.705-.659zm8.377 15.341H2.071v-1.506h8.988v1.506zm.894-9.223l-.282-.706h-1.506l-.282.706h-1.13l.02-.047h-.679l-.8-1.176h-.47v1.176H5.741V7.812h1.835c.612 0 .988.141 1.271.424.235.235.329.518.329.894 0 .612-.329.988-.8 1.224l.605.878 1.465-3.419h1.035l1.647 3.953h-1.175zm2.4-.047h-1.082V7.812h1.082v3.906zm3.953 0h-.941L15.718 9.6v2.165h-1.082V7.812h.988l1.6 2.071V7.812h1.082v3.906zm1.929.047a2.488 2.488 0 0 1-1.835-.612l.612-.706c.376.329.8.471 1.271.471.282 0 .471-.094.471-.282s-.141-.235-.659-.376c-.847-.188-1.459-.424-1.459-1.224 0-.706.565-1.271 1.506-1.271.659 0 1.176.188 1.6.518l-.565.753c-.377-.236-.753-.377-1.083-.377-.282 0-.376.094-.376.235 0 .188.141.235.659.376.894.188 1.459.471 1.459 1.224-.001.8-.612 1.271-1.601 1.271z"/></svg>
                         </a>
-                        <a href="https://www.w3.org/Style/CSS/Overview.en.html/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://www.w3.org/Style/CSS/Overview.en.html/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>CSS3</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg>
                         </a>
-                        <a href="https://www.java.com/" target="_blank" class="w-9 h-9 mr-3 mb-3 flex justify-center items-center hover:bg-primary hover:text-white text-dark">
+                        <a href="https://www.java.com/" target="_blank" class="tool">
                             <svg class="fill-current" width="25" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 384 512"><title>Java</title><path d="M277.74 312.9c9.8-6.7 23.4-12.5 23.4-12.5s-38.7 7-77.2 10.2c-47.1 3.9-97.7 4.7-123.1 1.3-60.1-8 33-30.1 33-30.1s-36.1-2.4-80.6 19c-52.5 25.4 130 37 224.5 12.1zm-85.4-32.1c-19-42.7-83.1-80.2 0-145.8C296 53.2 242.84 0 242.84 0c21.5 84.5-75.6 110.1-110.7 162.6-23.9 35.9 11.7 74.4 60.2 118.2zm114.6-176.2c.1 0-175.2 43.8-91.5 140.2 24.7 28.4-6.5 54-6.5 54s62.7-32.4 33.9-72.9c-26.9-37.8-47.5-56.6 64.1-121.3zm-6.1 270.5a12.19 12.19 0 0 1-2 2.6c128.3-33.7 81.1-118.9 19.8-97.3a17.33 17.33 0 0 0-8.2 6.3 70.45 70.45 0 0 1 11-3c31-6.5 75.5 41.5-20.6 91.4zM348 437.4s14.5 11.9-15.9 21.2c-57.9 17.5-240.8 22.8-291.6.7-18.3-7.9 16-19 26.8-21.3 11.2-2.4 17.7-2 17.7-2-20.3-14.3-131.3 28.1-56.4 40.2C232.84 509.4 401 461.3 348 437.4zM124.44 396c-78.7 22 47.9 67.4 148.1 24.5a185.89 185.89 0 0 1-28.2-13.8c-44.7 8.5-65.4 9.1-106 4.5-33.5-3.8-13.9-15.2-13.9-15.2zm179.8 97.2c-78.7 14.8-175.8 13.1-233.3 3.6 0-.1 11.8 9.7 72.4 13.6 92.2 5.9 233.8-3.3 237.1-46.9 0 0-6.4 16.5-76.2 29.7zM260.64 353c-59.2 11.4-93.5 11.1-136.8 6.6-33.5-3.5-11.6-19.7-11.6-19.7-86.8 28.8 48.2 61.4 169.5 25.9a60.37 60.37 0 0 1-21.1-12.8z"/></svg>
                         </a>
                     </div>
                 </div>
-
-                <div class="w-full px-4 lg:w-1/2 mb-7">
-                     
-                </div>
             </div>
             <!-- School -->
-            <section id="school" class="pt-36 pb-32">
-                <div class="container">
-                    <div class="w-full px-1">
-                        <div class="max-w-xl mx-auto text-center mb-16">
-                            <h2 class="font-bold text-dark text-3xl mb-4 lg:text-2xl">
-                                Educational Background
-                            </h2>
+            <div class="container">
+                <div class="w-full px-1">
+                    <div class="max-w-xl mx-auto text-center mb-16">
+                        <h2 class="font-bold text-sec text-3xl mb-4">
+                            Educational Background
+                        </h2>
 
-                            <p class="font-medium text- text-para mb-10">
-                                These are the schools that i studied at.
-                            </p>
+                        <p class="font-medium text-white mb-10">
+                            These are the schools that i studied at.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-wrap justify-center">
+                        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 text-center">
+                            <div class="school-card">
+                                <img src="http://siln-riyadh.kemdikbud.go.id/wp-content/uploads/2020/03/SIR-Tempo-Dulu-1.jpg" class="w-full h-60 rounded-md" alt="">
+                                <div class="px-8 py-6">
+                                    <h3 class="font-bold text-xl text-sec truncate mb-3">SILN Riyadh</h3>
+                                    <p class="text-white mb-5">Sekolah Indonesia Luar Negeri Riyadh is an Indonesian school that located at <span class="italic"> Riyadh, Saudi Arabia</span></p>
+                                    <a href="https://atdikbud-riyadh.kemdikbud.go.id/wp/sekolah-indonesia-luar-negeri-siln-di-arab-saudi/" target="_blank" class="bg-sec text-white px-5 py-2 rounded-tr-lg rounded-bl-lg hover:opacity-90">
+                                    More</a>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="flex flex-wrap justify-center">
-                            <div class="w-full px-4 lg:w-1/2 xl:w-1/3 text-center">
-                                <div class="rounded-xl overflow-hidden shadow-lg mb-10 hover:shadow-xl transition duration-300 hover:scale-105">
-                                    <img src="http://siln-riyadh.kemdikbud.go.id/wp-content/uploads/2020/03/SIR-Tempo-Dulu-1.jpg" class="w-full h-60" alt="">
-                                    <div class="px-8 py-6">
-                                        <a href="https://atdikbud-riyadh.kemdikbud.go.id/wp/sekolah-indonesia-luar-negeri-siln-di-arab-saudi/" target="_blank">
-                                            <h3 class="font-bold text-xl text-dark truncate hover:underline mb-3">SILN Riyadh</h3>
-                                            <p class="text-base">Sekolah Indonesia Luar Negeri Riyadh is an Indonesian school that located at <span class="italic"> Riyadh, Saudi Arabia</span></p>
-                                        </a>
-                                    </div>
+                        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 text-center">
+                            <div class="school-card">
+                                <img src="http://3.bp.blogspot.com/-ujfMxa3Sbp8/Wq4Bn0HbQPI/AAAAAAAAEY4/-ICEN3l5xL488N0jLFt751cQ6mZRzmmVACK4BGAYYCw/s1600/IMG20180226170704.jpg" class="w-full h-60 rounded-md" alt="">
+                                <div class="px-8 py-6">
+                                    <h3 class="font-bold text-xl text-sec truncate mb-3">Sekolah Indonesia Bangkok</h3>
+                                    <p class="text-white mb-5">Sekolah Indonesia Bangkok is an Indonesian school that located at<span class="italic"> Bangkok, Thailand</span></p>
+                                    <a href="https://www.sib-bangkok.org/" target="_blank" class="bg-sec text-white px-5 py-2 rounded-tr-lg rounded-bl-lg hover:opacity-90">
+                                    More</a>
                                 </div>
                             </div>
+                        </div>
+                        
+                        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 text-center">
+                            <div class="school-card">
+                                <img src="https://live.staticflickr.com/5526/10455027094_34e76bbe69_b.jpg" class="w-full h-60 rounded-md" alt="">
+                                <div class="px-8 py-6">
+                                    <h3 class="font-bold text-xl text-sec truncate mb-3">SDN Bintaro 12 Pagi</h3>
+                                    <p class="text-base text-white mb-5">Sekolah Dasar Negeri Bintaro 12 Pagi is a school that located at<span class="italic"> Jakarta, Indonesia</span></p>
+                                    <a href="https://dapo.kemdikbud.go.id/sekolah/86595935C68921766E11" target="_blank" class="bg-sec text-white px-5 py-2 rounded-tr-lg rounded-bl-lg hover:opacity-90">
+                                    More</a>
+                                </div>
+                            </div>
+                        </div>
 
-                            <div class="w-full px-4 lg:w-1/2 xl:w-1/3 text-center">
-                                <div class="rounded-xl overflow-hidden shadow-lg mb-10 hover:shadow-xl transition duration-300 hover:scale-105">
-                                    <img src="http://3.bp.blogspot.com/-ujfMxa3Sbp8/Wq4Bn0HbQPI/AAAAAAAAEY4/-ICEN3l5xL488N0jLFt751cQ6mZRzmmVACK4BGAYYCw/s1600/IMG20180226170704.jpg" class="w-full h-60" alt="">
-                                    <div class="px-8 py-6">
-                                        <a href="http://www.sib-bangkok.org/" target="_blank">
-                                            <h3 class="font-bold text-xl text-dark hover:underline truncate mb-3">Sekolah Indonesia Bangkok</h3>
-                                            <p class="text-base">Sekolah Indonesia Bangkok is an Indonesian school that located at<span class="italic"> Bangkok, Thailand</span></p>
-                                        </a> 
-                                    </div>
+                        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 text-center">
+                            <div class="school-card">
+                                <img src="data:image/jpeg;base64,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" 
+                                class="w-full h-60">
+                                <div class="px-8 py-6">
+                                    <h3 class="font-bold text-xl text-white truncate mb-3">MTsN 3 Jakarta</h3>
+                                    <p class="text-base text-white mb-5">Madrasah Tsanawiyah Negeri 3 Jakarta is a State Islamic School that located at<span class="italic"> Jakarta, Indonesia</span></p>
+                                    <a href="https://mtsnegeri3jakarta.sch.id/" target="_blank" class="bg-sec text-white px-5 py-2 rounded-tr-lg rounded-bl-lg hover:opacity-90">
+                                    More</a>
                                 </div>
                             </div>
-                            
-                            <div class="w-full px-4 lg:w-1/2 xl:w-1/3 text-center">
-                                <div class="rounded-xl overflow-hidden shadow-lg mb-10 hover:shadow-xl transition duration-300 hover:scale-105">
-                                    <img src="https://live.staticflickr.com/5526/10455027094_34e76bbe69_b.jpg" class="w-full h-60" alt="">
-                                    <div class="px-8 py-6">
-                                        <a href="https://dapo.kemdikbud.go.id/sekolah/86595935C68921766E11" target="_blank">
-                                            <h3 class="font-bold text-xl text-dark truncate hover:underline mb-3">SDN Bintaro 12 Pagi</h3>
-                                            <p class="text-base">Sekolah Dasar Negeri Bintaro 12 Pagi is a school that located at<span class="italic"> Jakarta, Indonesia</span></p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="w-full px-4 lg:w-1/2 xl:w-1/3 text-center">
-                                <div class="rounded-xl overflow-hidden shadow-lg mb-10 hover:shadow-xl transition duration-300 hover:scale-105">
-                                    <img src="data:image/jpeg;base64,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" 
-                                    class="w-full h-60">
-                                    <div class="px-8 py-6">
-                                        <a href="https://mtsnegeri3jakarta.sch.id/" target="_blank">
-                                            <h3 class="font-bold text-xl text-dark truncate hover:underline mb-3">MTsN 3 Jakarta</h3>
-                                            <p class="text-base">Madrasah Tsanawiyah Negeri 3 Jakarta is a State Islamic School that located at<span class="italic"> Jakarta, Indonesia</span></p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="w-full px-4 lg:w-1/2 xl:w-1/3 text-center">
-                                <div class="rounded-xl overflow-hidden shadow-lg mb-10 hover:shadow-xl transition duration-300 hover:scale-105">
-                                    <img src="http://1.bp.blogspot.com/-64vRN-J3Xwc/U0AQ19yYCjI/AAAAAAAADZM/wPAdFHLrd8U/s1600/1898782_10152298952211253_1657540869_o.jpg" 
-                                    class="w-full h-60">
-                                    <div class="px-8 py-6">
-                                        <a href="https://smktelkom-mlg.sch.id/" target="_blank">
-                                            <h3 class="font-bold text-xl text-dark truncate hover:underline mb-3">SMK Telkom Malang</h3>
-                                            <p class="text-base">SMK Telkom Sandhy Putra Malang is a Vocational School that located at <span class="italic"> Malang, Indonesia</span></p>
-                                        </a>
-                                    </div>
+                        </div>
+                        
+                        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 text-center">
+                            <div class="school-card">
+                                <img src="http://1.bp.blogspot.com/-64vRN-J3Xwc/U0AQ19yYCjI/AAAAAAAADZM/wPAdFHLrd8U/s1600/1898782_10152298952211253_1657540869_o.jpg" 
+                                class="w-full h-60">
+                                <div class="px-8 py-6">
+                                    <h3 class="font-bold text-xl text-white truncate mb-3">SMK Telkom Malang</h3>
+                                    <p class="text-base text-white mb-5">SMK Telkom Sandhy Putra Malang is a Vocational School that located at <span class="italic"> Malang, Indonesia</span></p>
+                                    <a href="https://smktelkom-mlg.sch.id/" target="_blank" class="bg-sec text-white px-5 py-2 rounded-tr-lg rounded-bl-lg hover:opacity-90">
+                                    More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
             <!-- /School -->
         </div>
     </section>
@@ -306,126 +292,113 @@
 
     
 
-    <!-- Projects -->
-    <section id="projects" class="pt-36 pb-16 bg-bgdark">
+    <!-- Portfolio -->
+    <section id="portfolio" class="pt-36 pb-16 bg-quart">
         <div class="container">
             <div class="w-full px-0 flex flex-wrap">
                 <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2 uppercase lg:text-2xl">
-                        Projects
+                    <h4 class="font-semibold text-lg text-sec mb-2 uppercase">
+                        Portfolio
                     </h4>
 
-                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">
-                        Some of my projects
+                    <h2 class="font-bold text-sec text-3xl mb-4 sm:text-4xl">
+                        My projects
                     </h2>
 
-                    <p class="font-medium text-lg text-para mb-10 md:text-lg">
+                    <p class="font-medium text-lg text-white mb-10">
                         These are several projects that i've created. Check out my github page for more projects! There is a node.js projects, "vanilla JavaScript" projects, Python projects, C++ projects, and more. Also i'm looking for an open source project to contribute on.  
                     </p>
 
-                    <a href="https://github.com/ahsanaazizan" target="_blank" class="text-base font-semibold text-white 
-                    bg-primary px-7 py-3 rounded-lg hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out">
-                        Click Here
+                    <a href="https://github.com/ahsanaazizan" target="_blank" class="text-base font-semibold hover:text-white 
+                    border-2 border-sec hover:bg-sec text-sec px-7 py-3 rounded-md hover:shadow-lg transition duration-300 ease-in-out">
+                        Click Here!
                     </a>
                 </div>
                 
                 <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                     <div class="mb-12 p-2 md:w-1/2">
-                        <div class="rounded-lg shadow-xl overflow-hidden px-10 py-10">
-                            <img src="dist/img/portfolio/3.png" class="w-full h-full">
-                            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        <div class="rounded-tr-xl rounded-bl-xl shadow-xl overflow-hidden px-10 py-10 bg-[#6f5087]">
+                            <img src="dist/img/portfolio/3.png" class="w-full h-full lg:h-60">
+                            <h3 class="font-semibold text-xl text-white mt-5 mb-3">
                                 Discord Bot With Python
                             </h3>
-                            <p class="font-medium text-base text-para mb-7">
+                            <p class="font-medium text-base text-white mb-7">
                                 A discord bot that can reply to a basic command. Also he can calculate simple calculation and convert a decimal to a binary and vice versa.
                             </p>
-                            <a href="https://github.com/ahsanaazizan" target="_blank" class="text-base font-semibold text-white 
-                            bg-primary px-7 py-3 rounded-lg hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out">
-                                More
+                            <a href="https://github.com/ahsanaazizan" target="_blank" class="more">
+                                Details
                             </a>
                         </div>
                     </div>
 
                     <div class="mb-12 p-2 md:w-1/2">
-                        <div class="rounded-lg shadow-xl overflow-hidden px-10 py-10">
-                            <img src="dist/img//portfolio/2.png" class="w-full h-full">
-                            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        <div class="rounded-tr-xl rounded-bl-xl shadow-xl overflow-hidden px-10 py-10 bg-[#6f5087]">
+                            <img src="dist/img//portfolio/2.png" class="w-full h-full lg:h-60">
+                            <h3 class="font-semibold text-xl text-white mt-5 mb-3">
                                 URL Shortener with Python
                             </h3>
-                            <p class="font-medium text-base text-para mb-7">
+                            <p class="font-medium text-base text-white mb-7">
                                 The backend sides of a URL Shortener made with Python. With FastAPI as the REST API and SQLite as the database.
                             </p>
-                            <a href="https://github.com/ahsanaazizan" target="_blank" class="text-base font-semibold text-white 
-                            bg-primary px-7 py-3 rounded-lg hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out">
-                                More
+                            <a href="https://github.com/ahsanaazizan" target="_blank" class="more">
+                                Details
                             </a>
                         </div>
                     </div>
 
                     <div class="mb-12 p-2 md:w-1/2">
-                        <div class="rounded-lg shadow-xl overflow-hidden px-10 py-10">
-                            <img src="dist/img//portfolio/1.png" class="w-full h-full">
-                            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        <div class="rounded-tr-xl rounded-bl-xl overflow-hidden px-10 py-10 bg-[#6f5087]">
+                            <img src="dist/img//portfolio/1.png" class="w-full h-full lg:h-60">
+                            <h3 class="font-semibold text-xl text-white mt-5 mb-3">
                                 Tic-Tac-Toe With Python
                             </h3>
-                            <p class="font-medium text-base text-para mb-7">
-                                A classic Tic-tac-toe game. But you can play against a player, you can play against a bot, even bot can play against another bot. But the cool thing is, there is an unbeatable bot.
+                            <p class="font-medium text-base text-white mb-7">
+                                A classic Tic-tac-toe game. But you can play against a player, bot, or even bot can play against another bot. There is an unbeatable bot.
                             </p>
-                            <a href="https://github.com/ahsanaazizan" target="_blank" class="text-base font-semibold text-white 
-                            bg-primary px-7 py-3 rounded-lg hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out">
-                                More
+                            <a href="https://github.com/ahsanaazizan" target="_blank" class="more">
+                                Details
                             </a>
                         </div>
                     </div>
 
                     <div class="mb-12 p-2 md:w-1/2">
-                        <div class="rounded-lg shadow-xl overflow-hidden px-10 py-10">
-                            <img src="dist/img//portfolio/4.png" class="w-full h-full">
-                            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        <div class="rounded-tr-xl rounded-bl-xl shadow-xl overflow-hidden px-10 py-10 bg-[#6f5087]">
+                            <img src="dist/img//portfolio/4.png" class="w-full h-full lg:h-60">
+                            <h3 class="font-semibold text-xl text-white mt-5 mb-3">
                                 Matrix Calculator With Python
                             </h3>
-                            <p class="font-medium text-base text-para mb-7">
+                            <p class="font-medium text-base text-white mb-7">
                                 Calculator for matrix made with plain Python's NumPy library, it can calculate matrix summation, subtraction, multiplication, division, and more.
                             </p>
-                            <a href="https://github.com/ahsanaazizan" target="_blank" class="text-base font-semibold text-white 
-                            bg-primary px-7 py-3 rounded-lg hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out">
-                                More
+                            <a href="https://github.com/ahsanaazizan" target="_blank" class="more">
+                                Details
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- /Projects -->
-
-    <!-- Certificates -->
-    <section id="certificates" class="pt-36">
-        <div class="container">
+        <div class="container mb-12">
             <div class="w-full px-6 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                 <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2 uppercase lg:text-2xl">
+                    <h2 class="font-bold text-sec text-3xl mb-4">
                         Certificates
-                    </h4>
-
-                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">
-                        My certificates
                     </h2>
                     
-                    <p class="font-medium text-lg text-para mb-10">
+                    <p class="font-medium text-lg text-white mb-3">
                         These are several certificates that i've earned. 
                     </p>
                 </div>
-
+                
                 <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto leading-relaxed">
                     <div class="rounded-lg overflow-hidden px-8 py-8 lg:w-1/2">
                         <div class="rounded-md shadow-lg overflow-hidden">
                             <img src="dist/img/Certi-1.png" class="w-full">
                         </div>
-                        <h3 class="font-bold text-xl text-dark mt-5 mb-3">
+                        <h3 class="font-bold text-xl text-white mt-5 mb-3 text-center">
                             Python
                         </h3>
-                        <p class="font-semibold text-base text-para">
+                        <p class="font-medium leading-relaxed text-base text-white text-center">
                             Certification for finishing kaggle's course 'Python', the course is about the programming Python programming language.
                         </p>
                     </div>
@@ -434,10 +407,10 @@
                         <div class="rounded-md shadow-lg overflow-hidden">
                             <img src="dist/img/Certi-2.png" class="w-full">
                         </div>
-                        <h3 class="font-bold text-xl text-dark mt-5 mb-3">
+                        <h3 class="font-bold text-xl text-white mt-5 mb-3 text-center">
                             Problem solving
                         </h3>
-                        <p class="font-semibold text-base text-para">
+                        <p class="font-medium leading-relaxed text-base text-white text-center">
                             Problem solving certification for passing HackerRank's 'Problem solving (Basic) ' certification test. It covers basic topics of Data Structures (such as Arrays, Strings) and Algorithms (such as Sorting and Searching).
                         </p>
                     </div>
@@ -446,10 +419,10 @@
                         <div class="rounded-md shadow-lg overflow-hidden">
                             <img src="dist/img/Certi-3.png" class="w-full">
                         </div>
-                        <h3 class="font-bold text-xl text-dark mt-5 mb-3">
+                        <h3 class="font-bold text-xl text-white mt-5 mb-3 text-center">
                             Intro to machine learning
                         </h3>
-                        <p class="font-semibold text-base text-para">
+                        <p class="font-medium leading-relaxed text-base text-white text-center">
                             Certification for finishing Kaggle's 'Intro to machine learning' course. It covers basic machine learning technique.
                         </p>
                     </div>
@@ -458,65 +431,39 @@
                         <div class="rounded-md shadow-lg overflow-hidden">
                             <img src="dist/img/Certi-4.png" class="w-full">
                         </div>
-                        <h3 class="font-bold text-xl text-dark mt-5 mb-3">
+                        <h3 class="font-bold text-xl text-white mt-5 mb-3 text-center">
                             Pandas 
                         </h3>
-                        <p class="font-semibold text-base text-para">
+                        <p class="font-medium leading-relaxed text-base text-white text-center">
                             Certification for finishing Kaggle's 'Pandas' course. It covers things like pandas data manipulation technique.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- /Certificates -->
     </section>
-    <!-- /Certificates -->
+    <!-- /Portfolio -->
 
-
-    <!-- Contact -->
-    <section class="pt-36 pb-60" id="contact">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2 uppercase lg:text-2xl">
-                        contact
-                    </h4>
-
-                    <h2 class="font-bold text-dark text-3xl mb-10 sm:text-4xl lg:text-5xl">
-                        Contact Me
-                    </h2>
-
-                    <p class="font-medium text-lg text-para mb-10 md:text-lg">
-                        You can contact me through my email ahsanaz461@gmail.com 
-                    </p>
-
-                    <a href="mailto:ahsanaz461@gmail.com" target="_blank" class="text-base font-semibold text-white 
-                    bg-primary px-7 py-3 rounded-lg hover:shadow-lg hover:opacity-75 transition duration-300 ease-in-out mt-19">
-                        Email Me
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Contact -->
+    <!-- Certificates -->
 
     <!-- Footer -->
     <footer class="bg-dark pt-24 pb-12">
         <div class="container">
             <div class="flex flex-wrap text-center">
-                <div class="w-full px-2 mb-12 text-slate-300 font-medium md:w-1/2">
-                    <h2 class="font-bold text-4xl text-white">Based On</h2>
+                <div class="w-full px-2 mb-12 text-white font-medium md:w-1/2">
+                    <h2 class="font-bold text-4xl text-sec">Based On</h2>
                     <p class="py-3">South Tangerang City, Banten, Indonesia</p>
                 </div>
 
-                <div class="w-full px-2 mb-12 text-slate-300 font-medium md:w-1/2">
-                    <h2 class="font-bold text-4xl text-white">Credit To</h2>
-                    <p class="py-3"><span class="font-bold">Inspiration : </span> <a href="https://sandhikagalih.github.io">Sandhika Galih</a></p>
-                    <p class="py-3"><span class="font-bold">CSS Library : </span> <a href="https://tailwindcss.com">Tailwind CSS</a></p>
+                <div class="w-full px-2 mb-12 text-white font-medium md:w-1/2">
+                    <h2 class="font-bold text-4xl text-sec">Credit To</h2>
+                    <p class="py-3"><span class="font-bold">Inspiration : </span> <a href="https://sandhikagalih.github.io">Sandhika Galih</a>, <a href="https://itsben.space">Rabbany</a></p>
                 </div>
             </div>
         </div>
 
-        <div class="w-full pt-10 border-t border-primary">
+        <div class="w-full pt-10 border-t border-white">
             <p class="text-white font-semibold text-md text-center">&copy; Ahsan Awadullah Azizan 2022</p>
         </div>
     </footer>
