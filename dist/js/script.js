@@ -1,18 +1,26 @@
 const hamburger = document.querySelector('#hamburger')
-const navMenu = document.querySelector('#nav-menu');
+const navMenu = document.querySelector('#nav-menu')
+
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal")
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight
+    var elementTop = reveals[i].getBoundingClientRect().top
+    var elementVisible = 150
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active")
+    } else {
+      reveals[i].classList.remove("active")
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
 
 
 hamburger.addEventListener('click', function() {
     hamburger.classList.toggle('hamburger-active')
     navMenu.classList.toggle('hidden')
 })
-
-function copyToClipboard() {
-    var copyText = document.getElementById("copy")
-
-    copyText.select()
-    copyText.setSelectionRange(0, 99999)
-
-    navigator.clipboard.writeText(copyText.value)
-    alert("Copied the text: " + copyText.value)
-}
