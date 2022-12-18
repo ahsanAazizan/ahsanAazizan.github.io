@@ -1590,11 +1590,11 @@ body {
   white-space: nowrap;
   /* Keeps the content on a single line */
   -webkit-animation: 
-      typing 2.7s steps(40, end),
-      blink-caret .5s step-end infinite;
+      typing 3.5s steps(40, end),
+      blink-caret .4s step-end infinite;
           animation: 
-      typing 2.7s steps(40, end),
-      blink-caret .5s step-end infinite;
+      typing 3.5s steps(40, end),
+      blink-caret .4s step-end infinite;
 }
 
 /* The typing effect */
