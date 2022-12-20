@@ -1501,10 +1501,10 @@ body {
   white-space: nowrap;
   /* Keeps the content on a single line */
   -webkit-animation: 
-      typing 3.5s steps(80, end),
+      typing 3s steps(50, end),
       blink-caret .4s step-end infinite;
           animation: 
-      typing 3.5s steps(80, end),
+      typing 3s steps(50, end),
       blink-caret .4s step-end infinite;
 }
 
